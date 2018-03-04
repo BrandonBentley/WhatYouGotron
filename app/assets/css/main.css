@@ -1,0 +1,98 @@
+.workoutCard {
+    margin: 1%;/* auto 1% auto;*/
+    padding: auto;
+    /* width: 90%; */
+    /* align: left; */
+    width: 23%;
+    vertical-align: center;
+    display: inline-block;
+    font-size: large;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in both;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.counts {
+    text-align: center;
+    background: lightgray;
+    margin: auto;
+    padding: 2%;
+}
+
+.centeredTheNav {
+    margin: auto;
+}
+
+#cardCenter {
+    width: 90%;
+}
+.spaceItCount {
+    margin-right: 10%;
+}
+
+.spaceIt {
+    margin-left: 10%;
+}
+.leftway {
+    float: left;
+}
+
+.rightway {
+    float: right;
+}
+
+.fileSystemBar {
+    background-color: lightgray;
+    padding: 0;
+}
+.cardIcon {
+    float: left;
+    margin: auto 2% auto 0;
+}
+
+.backButton {
+    padding: auto;
+    float: left;
+}
+
+.workoutCard:hover {
+    cursor: pointer;
+    /*filter: brightness(95%);*/
+}
+
+.searchField {
+    margin: 0 auto 0 auto;
+    width: 45%;
+}
+
+.searchInput {
+
+}
+
+.searchMessage {
+    margin: 5% auto 5% auto;
+    text-align: center;
+}
+
+.headGraphic {
+    height: 300px;
+    background-color: gray;
+}
+
+.workoutCardContent {
+    display: inline-block;
+}
+
+/*===========================================*/
+/*Animations*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
